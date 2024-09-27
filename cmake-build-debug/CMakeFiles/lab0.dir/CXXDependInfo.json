@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/francessca/CLionProjects/DataStructure/lab0/cmake-build-debug",
+	"dir-cur-src" : "/home/francessca/CLionProjects/DataStructure/lab0",
+	"dir-top-bld" : "/home/francessca/CLionProjects/DataStructure/lab0/cmake-build-debug",
+	"dir-top-src" : "/home/francessca/CLionProjects/DataStructure/lab0",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/francessca/CLionProjects/DataStructure/lab0/cmake-build-debug/CMakeFiles/lab0.dir"
+}
