@@ -1,5 +1,5 @@
 CMakeFiles/lab0.dir/main.cpp.o.ddi: \
- /home/francessca/CLionProjects/DataStructure/lab0/main.cpp \
+ /home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -143,4 +143,4 @@ CMakeFiles/lab0.dir/main.cpp.o.ddi: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/francessca/CLionProjects/DataStructure/lab0/Linked.h
+ /home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/Linked.h

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/francessca/CLionProjects/DataStructure/lab0/cmake-build-debug",
-		"source" : "/home/francessca/CLionProjects/DataStructure/lab0"
+		"build" : "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/cmake-build-debug",
+		"source" : "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0"
 	},
 	"version" : 
 	{

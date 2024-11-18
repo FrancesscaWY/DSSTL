@@ -1,10 +1,10 @@
-# 0 "/home/francessca/CLionProjects/DataStructure/lab0/main.cpp"
-# 1 "/home/francessca/CLionProjects/DataStructure/lab0/cmake-build-debug//"
+# 0 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/main.cpp"
+# 1 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/cmake-build-debug//"
 # 0 "<built-in>"
-# 0 "<command-line>"
+# 0 "<命令行>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
-# 0 "<command-line>" 2
-# 1 "/home/francessca/CLionProjects/DataStructure/lab0/main.cpp"
+# 0 "<命令行>" 2
+# 1 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/main.cpp"
 # 1 "/usr/include/c++/14.2.1/iostream" 1 3
 # 36 "/usr/include/c++/14.2.1/iostream" 3
        
@@ -43307,15 +43307,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "/home/francessca/CLionProjects/DataStructure/lab0/main.cpp" 2
-# 1 "/home/francessca/CLionProjects/DataStructure/lab0/Linked.h" 1
+# 2 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/main.cpp" 2
+# 1 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/Linked.h" 1
 
 
 
 
 
 
-# 6 "/home/francessca/CLionProjects/DataStructure/lab0/Linked.h"
+# 6 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/Linked.h"
 template <typename T>
 class Linked {
 private:
@@ -43390,10 +43390,20 @@ public:
         delete firstNode;
         length--;
     }
-
+    void reversPrintNode(Node* node) {
+        if(node == nullptr) {
+            return;
+        }else {
+            reversPrintNode(node->next);
+            std::cout << node->data << std::endl;
+        }
+    }
+    void reversePrint() {
+        reversPrintNode(head);
+    }
 
 };
-# 3 "/home/francessca/CLionProjects/DataStructure/lab0/main.cpp" 2
+# 3 "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/main.cpp" 2
 
 int main() {
 
@@ -43405,18 +43415,22 @@ int main() {
     nameList.push_front("John");
     nameList.push_front("Bob");
 
+    nameList.reversePrint();
 
     for (Linked<std::string>::Iterator it = nameList.begin(); it != nameList.end(); it++) {
         std::cout << *it << " ";
     }
     std::cout << std::endl;
 
+
     nameList.findNode("Francesca");
     nameList.findNode("Hellen");
 
+
     nameList.pop_front();
 
-    for(Linked<std::string>::Iterator it = nameList.begin();it != nameList.end();it++) {
+
+    for(Linked<std::string> ::Iterator it = nameList.begin();it != nameList.end();it++) {
         std::cout << *it << " ";
     }
     std::cout << std::endl;

@@ -11,6 +11,7 @@ int main() {
     nameList.push_front("John");
     nameList.push_front("Bob");
 
+    nameList.reversePrint();
     // Print the elements of nameList using an Iterator
     for (Linked<std::string>::Iterator it = nameList.begin(); it != nameList.end(); it++) {
         std::cout << *it << " ";
@@ -25,7 +26,7 @@ int main() {
     nameList.pop_front();
 
     // Print the elements of nameList using an Iterator
-    for(Linked<std::string>::Iterator it = nameList.begin();it != nameList.end();it++) {
+    for(Linked<std::string> ::Iterator it = nameList.begin();it != nameList.end();it++) {
         std::cout << *it << " ";
     }
     std::cout << std::endl;

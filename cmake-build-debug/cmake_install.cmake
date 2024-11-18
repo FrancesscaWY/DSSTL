@@ -1,4 +1,4 @@
-# Install script for directory: /home/francessca/CLionProjects/DataStructure/lab0
+# Install script for directory: /home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/francessca/CLionProjects/DataStructure/lab0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/francessca/OtherProjects/Semester3H/DataStructure/lab1/lab0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

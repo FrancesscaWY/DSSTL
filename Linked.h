@@ -77,7 +77,17 @@ public:
         delete firstNode;
         length--;
     }
-
+    void reversPrintNode(Node* node) {
+        if(node == nullptr) {
+            return;
+        }else {
+            reversPrintNode(node->next);
+            std::cout << node->data << std::endl;
+        }
+    }
+    void reversePrint() {
+        reversPrintNode(head);
+    }
 
 };
 

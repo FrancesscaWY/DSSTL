@@ -66,14 +66,16 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
 					[
-						"gcc",
+						"stdc++",
+						"m",
 						"gcc_s",
-						"c",
 						"gcc",
-						"gcc_s"
+						"c",
+						"gcc_s",
+						"gcc"
 					]
 				},
-				"path" : "/usr/bin/gcc",
+				"path" : "/usr/bin/g++",
 				"version" : "14.2.1"
 			},
 			"language" : "CXX",
